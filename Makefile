@@ -1,5 +1,6 @@
 export PACKAGE_VERSION := 3.2-272
 export THEOS_PACKAGE_SCHEME
+export THEOS_PACKAGE_ARCH := iphoneos-arm64
 
 ifeq ($(THEOS_DEVICE_SIMULATOR),1)
 ARCHS := arm64 x86_64
